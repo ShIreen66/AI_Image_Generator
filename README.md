@@ -1,12 +1,17 @@
-# React + Vite
+# AI Image Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Image Enhancer is a React-based web application that allows users to upload images, enhance them using AI-powered tools, and preview the results. The project is built using modern web technologies like React, Vite, and TailwindCSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Image Upload**: Users can upload images from their local devices.
+- **AI Enhancement**: Enhance images using AI-powered APIs.
+- **Image Preview**: Preview the enhanced images before downloading.
+- **Responsive Design**: Fully responsive UI built with TailwindCSS.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Frontend library for building user interfaces.
+- **Vite**: Fast build tool for modern web projects.
+- **TailwindCSS**: Utility-first CSS framework for styling.
+- **Axios**: HTTP client for API requests.
